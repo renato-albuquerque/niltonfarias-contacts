@@ -27,9 +27,9 @@ buttonDarkMode.addEventListener('click', function() {
 function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
-			title: 'Digital Business Card - Renato Albuquerque',
-			text: 'Front-End Web Developer',
-			url: 'https://rma-contacts.vercel.app/'
+			title: 'Cartão de Visita Digital - Nilton Farias',
+			text: 'Especialista em Operação e Gestão Portuária',
+			url: 'https://cartaodevisita-niltonfarias.vercel.app/'
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));

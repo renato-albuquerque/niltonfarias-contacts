@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --bg-color: #00294F;
+    --h1-color: #FAB23C;
+    --h2-p-color: #F2EAE4;
+    --bga-color: #F2EAE4;
+    --a-color: #AD6E07;
+}
+
+.lightMode:root {
+    --bg-color: #F2EAE4;
+    --h1-color: #AD6E07;
+    --h2-p-color: #00294F;
+    --bga-color: #00294F;
+    --a-color: #F2EAE4;
+}
+
+button.iconTurnsColor svg path {            
+    fill: #00294F;
+}
+
+body {
+    background-color: var(--bg-color);   /* background-color: #00294F; */
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+    width: 32.0rem;
+    text-align: center;
+    margin: 3.0rem auto;
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    color: var(--h1-color);
+    margin-top: 3.0rem;
+    margin-bottom: 0.8rem;
+    font-size: 3rem;
+}
+
+h2 {
+    color: var(--h2-p-color);
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+p {
+    color: var(--h2-p-color);
+    font-size: 1.2rem;
+}
+
+ul {
+    margin-top: 3.0rem;  
+}
+
+li {
+    margin-bottom: 1.8rem;
+}
+
+a {
+    background-color: var(--bga-color);   /* background-color:#F2EAE4; */
+    color: var(--a-color);     /* color: #AD6E07; */ 
+    padding: 1.5rem;
+    display: block;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+a:hover {
+    background-color: #999088;
+}
+
+/* a span {
+    font-size: 1.4rem;
+    font-style: italic;
+} */
+
+.developed-by {
+    color: var(--h2-p-color);
+    font-size: 1.2rem;
+    display: contents;
+}
+
+.developed-by:hover {
+    color: var(--h1-color);
+}
+
+footer {
+    margin-top: 3.0rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.topIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.darkLightMode {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.flags {
+    display: flex;
+    gap: 1.2rem;
+}
